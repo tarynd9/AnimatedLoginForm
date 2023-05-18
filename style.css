@@ -50,7 +50,7 @@ h2 {
 }
 
 input:focus ~ label,
-input:focus ~ :valid {
+input:valid ~ label {
     top: -5px;
 }
 
